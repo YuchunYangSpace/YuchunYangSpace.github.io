@@ -1,10 +1,10 @@
-/* Spotlights */
+/*  */
 
-	.spotlights > section > .image:before {
+	. > section > .image:before {
 		opacity: 0 !important;
 	}
 
-	.spotlights > section > .content > .inner {
+	. > section > .content > .inner {
 		-moz-transform: none !important;
 		-webkit-transform: none !important;
 		-ms-transform: none !important;
