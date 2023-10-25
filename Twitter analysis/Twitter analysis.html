@@ -64,10 +64,10 @@ p {
 									<div class="content">
 										<header class="major">
 											<h2>Background</h2>
-                                            <iframe width="1000" height="720" src="https://www.youtube.com/embed/CocEMWdc7Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CocEMWdc7Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 										</header>
-                                        <div style="width:500px; float:right">
-										    <img src="images/images.jpeg" alt="" style="width:500px">
+                                        <div style="float:right">
+										    <img src="images/images.jpeg" alt="" style="">
 										    <ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul>
@@ -87,73 +87,75 @@ p {
 							<section id="Tweets" class="main special">
 								<header class="major">
 									<h2>Tweets</h2>
-									<iframe title="The percentage of Tweets vs Retweets" aria-label="Donut Chart" id="datawrapper-chart-dmnfc" src="https://datawrapper.dwcdn.net/dmnfc/10/" scrolling="no" frameborder="0" style="border: none;" width="800" height="373" data-external="1"></iframe>
+									<div style="text-align: center; width: 100%; height: 100%;">
+									<iframe title="The percentage of Tweets vs Retweets" aria-label="Donut Chart" id="datawrapper-chart-dmnfc" src="https://datawrapper.dwcdn.net/dmnfc/10/" scrolling="no" frameborder="0" style="border: none;" data-external="1"></iframe>
+									</div>
 									<p>As the pie chart shows, the large majority of posts in my sample were retweets (16830), and only about 11% of them were tweets (14908).</p>
                                     <div class="flourish-embed flourish-chart" data-src="visualisation/12459616"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                                     <p>There are a total of 13091 unique users in my data sample and 1.29 tweets per user on average. 11796 users tweeted just once. Only 1124 users tweeted more than 5 times. </p>
                                 </header>
 							</section>
 
-						<!-- Top tweeters and bots-->
-							<section id="Top tweeters and bots" class="main special">
-								<header class="major">
-                                    <h2>Top tweeters and bots</h2>
-									<p>According to the number of tweets, I collect the top 10 tweeters who tweeted the most. </p>
-                                    <iframe title="Top 10 tweeters" aria-label="Table" id="datawrapper-chart-gDh9V" src="https://datawrapper.dwcdn.net/gDh9V/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="489" data-external="1"></iframe>
-									<p>But these users may not all be human, some of them may be bots. The existence of robots will seriously affect the analysis and judgment of events, a work by Chu, Gianvecchio, Wang and Jajodia (2012) reports that 10.5% of Twitter accounts are bots, with an additional 36.2% categorized as “cyborgs” (defined as a “Human Assisted Bot or vice versa”) [1], so we need to judge the possible state of users, robots, humans or “cyborgs”. </p>
-                                    <p>To determine if a tweeter is a bot or not, I use three web tools, botsentinel, botometer and foller.me. In addition, I will enter the user's homepage, analyze their posting content, as well as followers, following and the total number of tweets etc. </p>
-		                            <p>The top ten Twitters posted more than 35 tweets containing the term BZRP Music Sessions Vol. 53. It is noticeable that five of the ten usernames are related to Shakira. Among them, the tweeter with the most tweets is @ ShakFran, with 67 related tweets. This account has 424 followings, 729 followers and 53.1K tweets in two years. From its homepage, I can deduce that this account may be a big fan of Shakira, because there are so many tweets about Shakira, like her picture, her awards and etc. But it's worth noting that this tweeter's retweets hardly add any comments and this account has posted 53100 tweets in just two years, which makes me wonder whether it is human or a “cyborgs”. So I search for this account on the web tools. Botometer marked 3.1/5, with 100% retweets and more than 1800 tweets a week. Therefore, I think this account is most likely a bot.</p>
-                                </header>
-							</section>
+					<!-- Top tweeters and bots-->
+					<section id="Top tweeters and bots" class="main special">
+						<header class="major">
+							<h2>Top tweeters and bots</h2>
+							<p>According to the number of tweets, I collect the top 10 tweeters who tweeted the most. </p>
+							<iframe title="Top 10 tweeters" aria-label="Table" id="datawrapper-chart-gDh9V" src="https://datawrapper.dwcdn.net/gDh9V/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="489" data-external="1"></iframe>
+							<p>But these users may not all be human, some of them may be bots. The existence of robots will seriously affect the analysis and judgment of events, a work by Chu, Gianvecchio, Wang and Jajodia (2012) reports that 10.5% of Twitter accounts are bots, with an additional 36.2% categorized as “cyborgs” (defined as a “Human Assisted Bot or vice versa”) [1], so we need to judge the possible state of users, robots, humans or “cyborgs”. </p>
+							<p>To determine if a tweeter is a bot or not, I use three web tools, botsentinel, botometer and foller.me. In addition, I will enter the user's homepage, analyze their posting content, as well as followers, following and the total number of tweets etc. </p>
+							<p>The top ten Twitters posted more than 35 tweets containing the term BZRP Music Sessions Vol. 53. It is noticeable that five of the ten usernames are related to Shakira. Among them, the tweeter with the most tweets is @ ShakFran, with 67 related tweets. This account has 424 followings, 729 followers and 53.1K tweets in two years. From its homepage, I can deduce that this account may be a big fan of Shakira, because there are so many tweets about Shakira, like her picture, her awards and etc. But it's worth noting that this tweeter's retweets hardly add any comments and this account has posted 53100 tweets in just two years, which makes me wonder whether it is human or a “cyborgs”. So I search for this account on the web tools. Botometer marked 3.1/5, with 100% retweets and more than 1800 tweets a week. Therefore, I think this account is most likely a bot.</p>
+						</header>
+					</section>	
 
 
 					<!-- Tweeters' location -->
 						<section id="Tweeters' location" class="main special">
 							<header class="major">
 								<h2>Tweeters' location</h2>
-								<iframe title="Tweeters' location" aria-label="Map" id="datawrapper-chart-7Q9Rq" src="https://datawrapper.dwcdn.net/7Q9Rq/2/" scrolling="no" frameborder="0" style="border: none;" width="800" height="399" data-external="1"></iframe>
+								<div style="text-align: center;">
+								<iframe title="Tweeters' location" aria-label="Map" id="datawrapper-chart-7Q9Rq" src="https://datawrapper.dwcdn.net/7Q9Rq/2/" scrolling="no" frameborder="0" style="border: none;" data-external="1"></iframe>
+								</div>
 								<p>According to the chart, I found that this topic has a lot of interest in South America, North America and Europe.</p>
 								<p>I'm guessing that because the singer is Colombian and the song is also in Spanish, Spanish speakers pay more attention to her than to other places. Because many countries in South America use Spanish as the official language, and the United States in North America has a large number of Spanish immigrants[2], it is not surprising that there are many people concerned about these two places. Of course, it is undeniable that she is a very famous singer.</p>
 								<p>Besides, the number of people who use tweets is different in different countries. For example, China has a large population and many people follow this new song, but due to the small number of tweeters, it is not obvious on the map.</p>
 							</header>
+						</section>
 
 
-							<!-- 12hrs in data -->
-								<section id="12hrs in data" class="main special">
-									<header class="major">
-										<h2>12hrs in data</h2>
-									</header>
-	                                <iframe title="Number of Tweets every hour from 12/01/23 13:00:00 to 13/01/23 00:00:00  " aria-label="Interactive line chart" id="datawrapper-chart-0TEA5" src="https://datawrapper.dwcdn.net/0TEA5/7/" scrolling="no" frameborder="0" style="border: none;" width="800" height="400" data-external="1"></iframe>
-                                    <p>The time in the picture is Greenwich Mean Time. From one o’clock in the afternoon on the 12th, the popularity gradually decreased (1268 tweets), dropped to 760 tweets (12-Jan-21:00), and then rose rapidly to 1749 tweets. This trend may be related to the time difference. When the time is a country where users spend more time on Twitter and pay more attention to songs, the number of tweets increases, and vice versa.</p>
-								</section>
+					<!-- 12hrs in data -->
+					    <section id="12hrs in data" class="main special">
+						    <header class="major">
+							<h2>12hrs in data</h2>
+						    </header>
+						    <div style="text-align: center;">
+						    <iframe title="Number of Tweets every hour from 12/01/23 13:00:00 to 13/01/23 00:00:00  " aria-label="Interactive line chart" id="datawrapper-chart-0TEA5" src="https://datawrapper.dwcdn.net/0TEA5/7/" scrolling="no" frameborder="0" style="width: 100%; height: 100%; border: none;" data-external="1"></iframe>
+						    </div>
+						    <p>The time in the picture is Greenwich Mean Time. From one o’clock in the afternoon on the 12th, the popularity gradually decreased (1268 tweets), dropped to 760 tweets (12-Jan-21:00), and then rose rapidly to 1749 tweets. This trend may be related to the time difference. When the time is a country where users spend more time on Twitter and pay more attention to songs, the number of tweets increases, and vice versa.</p>
+					    </section>		
 
 
-
-
-
-						<!-- Textural analysis -->
-							<section id="Textural analysis" class="main special">
-								<header class="major">
-									<h2>Textural analysis</h2>
-									<img src="images/wordcloud.svg"/>
-									<p>When I searched for the name of the music and selected the 50 most popular tweets, I found that most of the music lists and rankings on twitter.</p>
-								</header>
-                             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shakira | BZRP Music Sessions Vol. 53 🎙️💣🔥 Available now worldwide! / ¡Disponible ya en todo el mundo! <a href="https://t.co/c8SFyLp2bb">https://t.co/c8SFyLp2bb</a> <a href="https://t.co/u0fRL3neg8">pic.twitter.com/u0fRL3neg8</a></p>&mdash; ShakiraMedia (@ShakiraMedia) <a href="https://twitter.com/ShakiraMedia/status/1613326471199887362?ref_src=twsrc%5Etfw">January 12, 2023</a>
-								</blockquote> <script async src="https:/platform.twitter.com/widgets.js" charset="utf-8"></script>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spotify Global (13/01) 🌎<br><br>#1. Shakira: Bzrp Music Sessions Vol. 53 - <a href="https://twitter.com/shakira?ref_src=twsrc%5Etfw">@shakira</a>, <a href="https://twitter.com/bizarrap?ref_src=twsrc%5Etfw">@bizarrap</a> (13.6M)<br>#2. Kill Bill - <a href="https://twitter.com/sza?ref_src=twsrc%5Etfw">@sza</a> (7.9M)<br>#3. Flowers - <a href="https://twitter.com/MileyCyrus?ref_src=twsrc%5Etfw">@MileyCyrus</a> (7.7M) <a href="https://t.co/Bt0F6BVX75">pic.twitter.com/Bt0F6BVX75</a></p>&mdash; BCharts (@bchartsnet) <a href="https://twitter.com/bchartsnet/status/1614274408394231809?ref_src=twsrc%5Etfw">January 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                <p>These are two tweets with a relatively high retweet volume.</p>
-								<img src="images/wordcloud2.svg"/>
-								<p>Then I searched for Shakira, and there are two obvious names on the world cloud, Pique or Piqué and Miley.</p>
-                <p>Pique is Shakira's ex-husband, and in the lyrics, he also insinuated that Pique had cheated. Miley Ray Cyrus is an American singer, songwriter, and actress.</p>
-                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sure, Shakira and Miley are heroins for writing about their breakups. But what about Deryck from Sum 41 after he caught Avril Lavigne cheating on him with Chad Kroeger from fucking Nickelback <a href="https://t.co/5a4sFVmKWk">pic.twitter.com/5a4sFVmKWk</a></p>&mdash; Isaac. Professional Toilet Seat Warmer (@FloridaManPig) <a href="https://twitter.com/FloridaManPig/status/1614857428465758210?ref_src=twsrc%5Etfw">January 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shakira’s ex husband pique is SUCH a l0ser. The fact that he is trying to be quirky about her dissing him as if he wasn’t caught cheating on his wife he had kids with. Does he think it’s adorable?</p>&mdash; poo (@WastedHoe) <a href="https://twitter.com/WastedHoe/status/1614869018942509059?ref_src=twsrc%5Etfw">January 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								<footer class="major">
-								</footer>
-					  	</section>
-
-
-
-
+					<!-- Textural analysis -->
+					<section id="Textural analysis" class="main special">
+						<header class="major">
+							<h2>Textural analysis</h2>
+							<img width="100%" src="images/wordcloud.svg"/>
+							<p>When I searched for the name of the music and selected the 50 most popular tweets, I found that most of the music lists and rankings on twitter.</p>
+						</header>
+						<div style="text-align: center;">
+					        <blockquote style="margin: auto;" class="twitter-tweet"><p lang="en" dir="ltr">Shakira | BZRP Music Sessions Vol. 53 🎙️💣🔥 Available now worldwide! / ¡Disponible ya en todo el mundo! <a href="https://t.co/c8SFyLp2bb">https://t.co/c8SFyLp2bb</a> <a href="https://t.co/u0fRL3neg8">pic.twitter.com/u0fRL3neg8</a></p>&mdash; ShakiraMedia (@ShakiraMedia) <a href="https://twitter.com/ShakiraMedia/status/1613326471199887362?ref_src=twsrc%5Etfw">January 12, 2023</a>
+						    </blockquote> <script async src="https:/platform.twitter.com/widgets.js" charset="utf-8"></script>
+						    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spotify Global (13/01) 🌎<br><br>#1. Shakira: Bzrp Music Sessions Vol. 53 - <a href="https://twitter.com/shakira?ref_src=twsrc%5Etfw">@shakira</a>, <a href="https://twitter.com/bizarrap?ref_src=twsrc%5Etfw" >@bizarrap</a> (13.6M)<br>#2. Kill Bill - <a href="https://twitter.com/sza?ref_src=twsrc%5Etfw">@sza</a> (7.9M)<br>#3. Flowers - <a href="https://twitter.com/MileyCyrus?ref_src=twsrc%5Etfw">@MileyCyrus</a> (7.7M) <a href="https://t.co/Bt0F6BVX75">pic.twitter.com/Bt0F6BVX75</a></p>&mdash; BCharts (@bchartsnet) <a href="https://twitter.com/bchartsnet/status/1614274408394231809?ref_src=twsrc%5Etfw">January 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						<p>These are two tweets with a relatively high retweet volume.</p>
+						<img width="100%" src="images/wordcloud2.svg"/>
+						<p>Then I searched for Shakira, and there are two obvious names on the world cloud, Pique or Piqué and Miley.</p>
+						<p>Pique is Shakira's ex-husband, and in the lyrics, he also insinuated that Pique had cheated. Miley Ray Cyrus is an American singer, songwriter, and actress.</p>
+						<blockquote lass="twitter-tweet" ><p lang="en" dir="ltr">Sure, Shakira and Miley are heroins for writing about their breakups. But what about Deryck from Sum 41 after he caught Avril Lavigne cheating on him with Chad Kroeger from fucking Nickelback <a href="https://t.co/5a4sFVmKWk">pic.twitter.com/5a4sFVmKWk</a></p>&mdash; Isaac. Professional Toilet Seat Warmer (@FloridaManPig) <a href="https://twitter.com/FloridaManPig/status/1614857428465758210?ref_src=twsrc%5Etfw">January 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shakira’s ex husband pique is SUCH a l0ser. The fact that he is trying to be quirky about her dissing him as if he wasn’t caught cheating on his wife he had kids with. Does he think it’s adorable?</p>&mdash; poo (@WastedHoe) <a href="https://twitter.com/WastedHoe/status/1614869018942509059?ref_src=twsrc%5Etfw">January 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<footer class="major">
+						</footer>
+				    </section>
 
 
 
@@ -164,11 +166,10 @@ p {
 								<p>[1]T. Velayutham and P. K. Tiwari, "Bot identification: Helping analysts for right data in twitter," 2017 3rd International Conference on Advances in Computing, Communication & Automation (ICACCA) (Fall), Dehradun, India, 2017, pp. 1-5, doi: 10.1109/ICACCAF.2017.8344722.
 								<br>[2]U.S. Census. Facts for features: Hispanic Heritage Month 2015. www.census.gov/newsroom/factsfor-features/2015/cb15-ff18.html.</p>
 							</header>
-							</section>
+						</section>
 
-				</div>
 
-				<!-- Footer -->
+				    <!-- Footer -->
 					<footer id="footer">
 						<section>
 							<h2>Shakira Isabel Mebarak Ripoll</h2>
@@ -198,7 +199,6 @@ p {
 							</dl>
 						</section>
 					</footer>
-				</div>
 
 
 		<!-- Scripts -->
