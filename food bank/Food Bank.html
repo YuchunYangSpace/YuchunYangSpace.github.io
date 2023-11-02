@@ -7,9 +7,9 @@
 	<title>Food Bank</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="./css/main.css" />
 	<noscript>
-		<link rel="stylesheet" href="../assets/css/noscript.css" />
+		<link rel="stylesheet" href="./css/noscript.css" />
 	</noscript>
 
 </head>
@@ -21,10 +21,10 @@
 		<a href="../index.html" class="title">Yuchun Yang</a>
 		<nav>
 			<ul>
-				<li><a href="index.html">About Me</a></li>
-				<li><a href="../index.html#UX Engineer" class="active">UX Engineer</a></li>
-				<li><a href="../index.html#Front-End Developer">Front-End Developer</a></li>
-				<li><a href="../index.html#Get In Touch">Grt In Touch</a></li>
+				<li><a href="../index.html">About Me</a></li>
+				<li><a href="../index.html#one" class="active">UX Engineer</a></li>
+				<li><a href="../index.html#two">Front-End Developer</a></li>
+				<li><a href="../index.html#three">Grt In Touch</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -56,41 +56,62 @@
 						and Tarasuk, 2012).
 					</p>
 					<h2>2 Discover the problem</h2>
-					<!-- Chart unfinished -->
-					<!--
-						<table>
-						<tbody>
-							<tr>
-								<dt>
-									<div class="flourish-embed flourish-chart" data-src="visualisation/12933069">
-										<script src="https://public.flourish.studio/resources/embed.js"></script>
-									</div>
-								</dt>
-								<dt>
-									<div class="flourish-embed flourish-sankey" data-src="visualisation/12936179">
-										<script src="https://public.flourish.studio/resources/embed.js"></script>
-									</div>
-								</dt>
-							</tr>
-							<tr>
-								<td>
-									Flourish logoA Flourish chart Nearly one-third of food produced for human
-									consumption is lost or wasted, equalling a total of 1.3 billion tonnes of food waste
-									per year (Schanes, Dobernig and Gözet, 2018).
-								</td>
-								<td>
-									Flourish logoA Flourish sankey chart nearly 14 million people in the UK struggle to
-									get
-									enough
-									to eat (9.7 million adults and 4 million children). The total population of the UK
-									in
-									2022 will
-									be 68.6 million.
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				-->
+					<div>
+						<div style="display: inline-block; vertical-align: top; width: 48%;">
+							<table>
+								<tbody>
+									<th>Food waste</th>
+									<tr>
+										<td>
+											<div class="flourish-embed flourish-chart"
+												data-src="visualisation/12933069">
+												<script
+													src="https://public.flourish.studio/resources/embed.js"></script>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Nearly one-third of food produced for human
+											consumption is lost or wasted, equalling a total of 1.3 billion tonnes of
+											food
+											waste
+											per year (Schanes, Dobernig and Gözet, 2018).
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div style="display: inline-block; vertical-align: top; width: 48%; float: right;">
+							<table>
+								<tbody>
+									<th>Hungry popular</th>
+									<tr>
+										<td>
+											<div class="flourish-embed flourish-sankey image"
+												data-src="visualisation/12936179">
+												<script
+													src="https://public.flourish.studio/resources/embed.js"></script>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Nearly 14 million people in the UK struggle to
+											get
+											enough
+											to eat (9.7 million adults and 4 million children). The total population of
+											the
+											UK
+											in
+											2022 will
+											be 68.6 million.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
 					<h2>3 Analyse the problem</h2>
 					<p>
 						There are many ways to reduce food waste and feed the hungry, one of which is food donation.
@@ -99,29 +120,36 @@
 					<img src="./picture/2.png" alt="User Flow" title="User Flow" class="image fit">
 					<h3>• Household / Donor:</h3>
 					<p>
-						Reusing leftovers is considered one of the most effective strategies to combat food waste at the
+						Reusing leftovers is considered one of the most effective strategies to combat food waste at
+						the
 						household
-						level(Schanes, Dobernig and Gözet, 2018); the youths waste more than elderly people, above all
+						level(Schanes, Dobernig and Gözet, 2018); the youths waste more than elderly people, above
+						all
 						compared with
 						people aged
-						65 or over who were found to waste significantly less food than the rest of the population; the
+						65 or over who were found to waste significantly less food than the rest of the population;
+						the
 						process of
 						donation is
-						very complex(De Boeck et al., 2017); food safety, do not know food waste diversion avenues, lack
+						very complex(De Boeck et al., 2017); food safety, do not know food waste diversion avenues,
+						lack
 						of time and
 						space(Goodman-Smith, Mirosa and Skeaff, 2020)
 					</p>
 					<h3>• Charity:</h3>
 					<p>
-						Food banks have also their own problems: Poor distribution strategies, informality in handling
+						Food banks have also their own problems: Poor distribution strategies, informality in
+						handling
 						and delivering
 						food, lack
-						of infrastructure, the mismatch between the supply and nutrition needs, among others (Mejia et
+						of infrastructure, the mismatch between the supply and nutrition needs, among others (Mejia
+						et
 						al., 2015);
 					</p>
 					<h3>• Low-income families:</h3>
 					<p>
-						Interviews with 371 low-income Toronto families revealed that 75 percent had experienced some
+						Interviews with 371 low-income Toronto families revealed that 75 percent had experienced
+						some
 						food insecurity,
 						but only
 						23 percent had used a food bank; for most food bank users, food insecurity was a severe and
@@ -135,10 +163,13 @@
 						<tbody>
 							<tr>
 								<td>
-									<img src="./picture/3.png" class="image fit">
+									<img src="./picture/3.jpeg" class="image fit">
 								</td>
 								<td>
-									<img src="./picture/4.JPG" class="image fit">
+									<img src="./picture/4.jpeg" class="image fit">
+								</td>
+								<td>
+									<img src="./picture/5.jpeg" class="image fit">
 								</td>
 							</tr>
 						</tbody>
@@ -150,7 +181,8 @@
 						related information.
 					</p>
 					<p>
-						However, due to the lack of supervision, this software may have food safety problems, and users
+						However, due to the lack of supervision, this software may have food safety problems, and
+						users
 						will worry about
 						it and
 						reduce its use.
@@ -172,16 +204,19 @@
 						</tbody>
 					</table>
 					<p>
-						This software can provide restaurants with a platform to reduce food waste and mainly address
+						This software can provide restaurants with a platform to reduce food waste and mainly
+						address
 						leftover or
 						unsellable
-						food in restaurants. It allows restaurants to upload photos and related information, and allows
+						food in restaurants. It allows restaurants to upload photos and related information, and
+						allows
 						consumers to buy
 						at low
 						prices.
 					</p>
 					<p>
-						But it is also burdensome for some low-income users to buy at low prices. At the same time, it
+						But it is also burdensome for some low-income users to buy at low prices. At the same time,
+						it
 						cannot provide a channel for sharing food leftovers in the family.
 					</p>
 					<h3>• Flashfood</h3>
@@ -199,20 +234,24 @@
 						time,
 						because food safety needs to be considered, charities are included in the design system to
 						control food safety.
-						According to the above problems, design a food donation platform that can provide young people
+						According to the above problems, design a food donation platform that can provide young
+						people
 						with more
 						convenience,
 						and provide charities with a clear delivery platform for food delivery.
 					</p>
 					<h2>5 Technical support</h2>
 					<p>
-						Since mobile phones are the most widely used technology by human beings in today’s world, at the
+						Since mobile phones are the most widely used technology by human beings in today’s world, at
+						the
 						same time, the
 						target
-						audience is young people, to carry out the most basic tasks, we choose the technology to be a
+						audience is young people, to carry out the most basic tasks, we choose the technology to be
+						a
 						mobile
 						application. Based
-						on the technology in mobile phones, it is possible to create more technological applications for
+						on the technology in mobile phones, it is possible to create more technological applications
+						for
 						mobile phone
 						software,
 						such as internet access, global positioning systems (GPS), access to data, microphones and
@@ -225,32 +264,38 @@
 						A login system will be required to identify users and distinguish between donors and charity
 						organisations. As
 						part of
-						the technology that is commonly used in software, the login system is always linked to a Google
+						the technology that is commonly used in software, the login system is always linked to a
+						Google
 						account, a
 						Facebook
-						account or an Apple account, or users can register a username and password in the app to access
+						account or an Apple account, or users can register a username and password in the app to
+						access
 						the service. By
 						creating
-						user accounts, the software can store users’ addresses and information and protect the user’s
+						user accounts, the software can store users’ addresses and information and protect the
+						user’s
 						privacy
 						(shirali-shahreza
 						and Shirali-Shahreza, 2007).
 					</p>
 					<h3>• Location Access</h3>
 					<p>
-						To enable location access, show nearby charities, and navigate to an address, GPS and location
+						To enable location access, show nearby charities, and navigate to an address, GPS and
+						location
 						services will be
 						required. As indicated by (von Watzdorf and Michahelles, 2010), mobile phone GPS technology
 						allows users to know
 						each
-						other’s locations more accurately (von Watzdorf and Michahelles, 2010). For this, Google Maps
+						other’s locations more accurately (von Watzdorf and Michahelles, 2010). For this, Google
+						Maps
 						will be integrated
 						with
 						the app.
 					</p>
 					<h3>• Camera</h3>
 					<p>
-						The third technology needed is the camera. The phone always comes with a camera lens, but the
+						The third technology needed is the camera. The phone always comes with a camera lens, but
+						the
 						software requires
 						the user
 						to authorise the camera to capture images, as in the case of the photo uploading application
@@ -260,16 +305,20 @@
 					</p>
 					<h3>• Central Database</h3>
 					<p>
-						A central database will be required to store all the important information and records, such as
+						A central database will be required to store all the important information and records, such
+						as
 						the details of
 						the
-						donors and charity organisations, the messages in chats, pictures uploaded, and a lot more. For
+						donors and charity organisations, the messages in chats, pictures uploaded, and a lot more.
+						For
 						this purpose, we
 						will
-						use Firebase as the database. As described by Khawas and Shah, Firebase “is a paid service which
+						use Firebase as the database. As described by Khawas and Shah, Firebase “is a paid service
+						which
 						is a
 						cross-platform
-						solution for messages and notifications”, that “enables the application developer to understand
+						solution for messages and notifications”, that “enables the application developer to
+						understand
 						how users are
 						using the
 						application” and also “supports social login provider like Facebook, Google (Khawas & Shah,
@@ -279,16 +328,20 @@
 					</p>
 					<h3>• Confirmation Code and Authenticator</h3>
 					<p>
-						The fifth technology we intend to use is a confirmation code generator and authenticator, as in
+						The fifth technology we intend to use is a confirmation code generator and authenticator, as
+						in
 						the Deliveroo
 						app. This
-						code will verify and match if the organisation is collecting from the respective/correct donor
+						code will verify and match if the organisation is collecting from the respective/correct
+						donor
 						who chose to hand
 						over
-						their meal to them. Similarly, this technology is used for food deliveries to prevent food loss.
+						their meal to them. Similarly, this technology is used for food deliveries to prevent food
+						loss.
 						As shown in
 						Figure 1,
-						in Deliveroo, when a delivery exceeds twenty pounds, riders must enter a two-digit electronic
+						in Deliveroo, when a delivery exceeds twenty pounds, riders must enter a two-digit
+						electronic
 						code provided by
 						the
 						customer to confirm their delivery (“Deliveroo | Introducing customer confirmation codes,”
@@ -298,7 +351,8 @@
 					<img src="./picture/user journey.jpg" class="image fit">
 					<h3>• For donors</h3>
 					<p>
-						After logging in to the software, the user uploads the information of the food that needs to be
+						After logging in to the software, the user uploads the information of the food that needs to
+						be
 						donated, and
 						then
 						donates according to the type of food that different charities need, and then selects the
@@ -312,7 +366,8 @@
 					</p>
 					<h3>• For charities</h3>
 					<p>
-						The charity publishes the food demand, receives and checks the food donation information from
+						The charity publishes the food demand, receives and checks the food donation information
+						from
 						the donor, and the
 						rider
 						or donor starts to deliver the food after approval.
@@ -320,14 +375,15 @@
 					<h2>7 Low-fidelity</h2>
 					<img src="./picture/low-fidelity.jpg" class="image fit">
 					<h2>8 Usability Test</h2>
-					<h3>For the Donors</h3>
-					<h4>User stories</h4>
+					<h3>• For the Donors</h3>
+					<h4>User stories:</h4>
 					<p>
 						User story 1: As someone who ends up buying extra groceries, way more than the required
 						quantity, I
 						want to donate
 						six boxes
-						of grapes, four bags of lettuce, five packets of corn, two boxes of chicken legs, and 3 loaves
+						of grapes, four bags of lettuce, five packets of corn, two boxes of chicken legs, and 3
+						loaves
 						of bread, so that
 						I do
 						not have to throw them in the garbage as they are about to expire.
@@ -336,13 +392,15 @@
 						User story 2：I have placed a donation order and chosen the pickup service by the charity
 						organisation. The
 						representative
-						will arrive in 20 minutes. I exited the app and started watching YouTube on my phone. Later when
+						will arrive in 20 minutes. I exited the app and started watching YouTube on my phone. Later
+						when
 						the
 						representative
 						arrives, I need to quickly access the confirmation code for the donation order.
 					</p>
 					<p>
-						User story 3: I am at the checkout counter at Waitrose and need to quickly access the discount
+						User story 3: I am at the checkout counter at Waitrose and need to quickly access the
+						discount
 						voucher I earned as a
 						reward
 						in exchange for a donation, so that I can scan the QR code and utilise my discount.
@@ -389,7 +447,8 @@
 						Changing 1: Add drop-down menu and map.
 					</p>
 					<p>
-						Changing 2: Adding a filter function and a search function to quickly find a specific charity.
+						Changing 2: Adding a filter function and a search function to quickly find a specific
+						charity.
 					</p>
 					<p>
 						Changing 3: Adding food categories, packaging and any dietary specifications.
@@ -400,16 +459,19 @@
 					<h3>• For the Charities</h3>
 					<h4>User story:</h4>
 					<p>
-						Story 1: As a representative of a charity organisation, I want to reject a donation request by a
+						Story 1: As a representative of a charity organisation, I want to reject a donation request
+						by a
 						donor because
 						the
 						picture and description added by the donor were unclear and not satisfactory.
 					</p>
 					<p>
-						Story 2: As a representative of a charity organisation who is responsible for the execution of a
+						Story 2: As a representative of a charity organisation who is responsible for the execution
+						of a
 						donation, I
 						want to
-						upload a picture showing the donation is complete so that the donor can confirm the successful
+						upload a picture showing the donation is complete so that the donor can confirm the
+						successful
 						completion of the
 						donation.
 					</p>
@@ -417,7 +479,8 @@
 						Story 3: As a representative of a charity organisation, I am travelling to the donor’s given
 						address to collect
 						their
-						donation, but I can’t seem to find their exact location, so I need to call them to help me reach
+						donation, but I can’t seem to find their exact location, so I need to call them to help me
+						reach
 						them.
 
 					</p>
@@ -430,7 +493,8 @@
 						Users’ problem & Changing 2: They could not find the place to upload process to donors.
 					</p>
 					<p>
-						Users’ problem & Changing 3: They could not find the options to call the doner side phone when
+						Users’ problem & Changing 3: They could not find the options to call the doner side phone
+						when
 						they lose the
 						way.
 					</p>
