@@ -2132,6 +2132,10 @@ ul.actions li:first-child {
 	text-align: center;
 }
 
+.wrapper.style4 a {
+	color: #99e0f6
+}
+
 .wrapper.style4 h1,
 .wrapper.style4 h2,
 .wrapper.style4 h3,
