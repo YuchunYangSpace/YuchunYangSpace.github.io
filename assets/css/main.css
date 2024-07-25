@@ -252,8 +252,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: #3e3e3e;
-	margin: 0 0 0.75em 0;
+	color: hsl(0, 0%, 24%);
+	margin: 1em 0 0.75em 0;
 }
 
 h1 a,
@@ -2231,7 +2231,7 @@ body>article {
 }
 
 #top {
-	padding: 10em 0 10em 0;
+	padding: 4em 0 10em 0;
 	text-align: left;
 }
 
