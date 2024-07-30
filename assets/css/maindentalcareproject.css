@@ -2581,3 +2581,21 @@ body>article {
 	}
 
 }
+
+/* Specific styles for slideshow-image4 and slideshow-image5 */
+#slideshow-image1,
+#slideshow-image2,
+#slideshow-image3,
+#slideshow-image4,
+#slideshow-image5 {
+	border-left: 1px solid #868686;
+	/* Left border */
+	border-right: 1px solid #868686;
+	/* Right border */
+	border-top: none;
+	/* No top border */
+	border-bottom: none;
+	/* No bottom border */
+	box-sizing: border-box;
+	/* Include padding and border in the element's total width and height */
+}
