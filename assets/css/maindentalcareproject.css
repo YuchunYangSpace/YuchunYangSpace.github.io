@@ -253,7 +253,7 @@ h4,
 h5,
 h6 {
 	color: #3e3e3e;
-	margin: 0 0 0.75em 0;
+	margin: 0.75em 0 0.75em 0;
 }
 
 h1 a,
@@ -2598,4 +2598,27 @@ body>article {
 	/* No bottom border */
 	box-sizing: border-box;
 	/* Include padding and border in the element's total width and height */
+}
+
+details summary {
+	cursor: pointer;
+	list-style: none;
+	font-weight: 600;
+	position: relative;
+	color: #000;
+}
+
+/* 加号符号 */
+details summary::before {
+	content: "+";
+	position: absolute;
+	left: -20px;
+	/* 控制加号与文本的距离 */
+	font-size: 20px;
+	color: #000000;
+}
+
+/* 展开时显示减号 */
+details[open] summary::before {
+	content: "-";
 }
